@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Player</title>
+    <title>Sajufy</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Music Player</h1>
-        <div class="Player">
-            <audio id="audioPlayer" controls></audio>
-            <div class="controls">
-                <button id="prevButton">Previous</button>
-                <button id="playButton">Play</button>
-                <button id="nextButton">Next</button>
+        <h1>Sajufy</h1>
+        <div class="player">
+            <div class="song-info">
+                <img id="currentTrackImage" src="images/WhatsApp Image 2024-03-23 at 21.04.14_312270ed.jpg" alt="">
+                <div class="controls">
+                    <button id="prevButton"><img src="icons/icons8-previous-50.png" alt=""></button>
+                    <button id="playButton"><img src="icons/icons8-play-48.png" alt=""></button>
+                    <button id="nextButton"><img src="icons/icons8-fast-forward-round-50.png" alt=""></button>
+                </div>
             </div>
+            <audio id="audioPlayer" controls></audio>
         </div>
+        
         <ul id="playlist"></ul>
     </div>
     <script src="app.js"></script>
