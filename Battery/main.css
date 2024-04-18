@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.battery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.item {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.item h3 {
+    margin-top: 0;
+    color: #333; /* Changing text color for headings */
+}
+
+.item .batteryLevel {
+    font-weight: bold;
+    font-size: 20px;
+    color: #007bff; /* Changing text color for battery level */
+}
+
+.item .batteryCharging,
+.item .batteryChargingTime,
+.item .batteryDischargingTime {
+    font-style: italic;
+    color: #28a745; /* Changing text color for other battery details */
+}
